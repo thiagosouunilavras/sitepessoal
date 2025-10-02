@@ -5,18 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Minha Página Pessoal</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Meu Site</a>
+      <a class="navbar-brand" href="index.html">
+        <img src="network_intelligence_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="Ícone Circuito Zero" width="30" height="30" class="d-inline-block align-text-top">
+    Circuito Zero
+        </a>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
           <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
-          <li class="nav-item"><a class="nav-link" href="extra.html">Extra</a></li>
+          <li class="nav-item"><a class="nav-link" href="extra.html">Serviços</a></li>
         </ul>
       </div>
     </div>
@@ -26,14 +32,62 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-4">
-        <img src="img/sua-foto.jpg" alt="Minha Foto" class="img-fluid rounded">
+        <img src="minhaFoto.jpeg" alt="Minha Foto" class="img-fluid rounded">
       </div>
       <div class="col-md-8">
-        <h1>Olá! Eu sou [Seu Nome]</h1>
-        <p>Sou [Sua Profissão ou Área de Atuação]. Tenho interesse em [Seus Interesses] e gosto de compartilhar meus conhecimentos e experiências.</p>
-        <p>No meu tempo livre, gosto de [hobbies, esportes, etc.].</p>
-        <a href="https://www.linkedin.com/" class="btn btn-primary" target="_blank">Meu LinkedIn</a>
-        <a href="contato.html" class="btn btn-outline-secondary">Fale comigo</a>
+        <h1>Meu nome é Thiago Elias de Souza</h1>
+        <p>Com experiência prática e consolidada desde 2019 na plataforma FLUIG, sou fundador da Circuito Zero, uma consultoria homologada e especializada em transformar a jornada digital de organizações por meio da tecnologia da TOTVS.</p>
+        <p>Lidero projetos completos, desde o levantamento de requisitos até a entrega técnica e estratégica, com profundo domínio em portais, permissões, estruturação de ambientes, integrações com sistemas TOTVS e desenvolvimento de automações personalizadas.</p>
+        <p>Na Circuito Zero, unimos expertise técnica e visão estratégica para entregar soluções ágeis, robustas e alinhadas aos objetivos de negócios dos clientes. Mais do que implementar, acreditamos na capacitação das equipes e na cocriação, garantindo que a tecnologia FLUIG seja um verdadeiro motor de inovação e eficiência.</p>
+       <div id="depoimentosCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <blockquote class="blockquote text-center">
+          <p class="mb-3">"A Circuito Zero transformou nosso processo! Atendimento impecável e soluções eficazes."</p>
+          <footer class="blockquote-footer">João Silva, <cite title="Empresa A">Grupo NovaVida</cite></footer>
+        </blockquote>
+      </div>
+
+      <div class="carousel-item">
+        <blockquote class="blockquote text-center">
+          <p class="mb-3">"Consultoria altamente qualificada e suporte rápido. Recomendo muito!"</p>
+          <footer class="blockquote-footer">Maria Oliveira, <cite title="Empresa B">AlfaTech</cite></footer>
+        </blockquote>
+      </div>
+
+      <div class="carousel-item">
+        <blockquote class="blockquote text-center">
+          <p class="mb-3">"Parceria fundamental para o sucesso dos nossos projetos no FLUIG."</p>
+          <footer class="blockquote-footer">Carlos Santos, <cite title="Empresa C">Universidade Inova</cite></footer>
+        </blockquote>
+      </div>
+<br>
+<br>
+<br>
+    </div>
+     <br>
+	 <br>
+    <button class="carousel-control-prev" type="button" data-bs-target="#depoimentosCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+	<br>
+	<br>
+    <button class="carousel-control-next" type="button" data-bs-target="#depoimentosCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+	<br>
+    <div class="carousel-indicators mt-3">
+      <button type="button" data-bs-target="#depoimentosCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Depoimento 1"></button>
+      <button type="button" data-bs-target="#depoimentosCarousel" data-bs-slide-to="1" aria-label="Depoimento 2"></button>
+      <button type="button" data-bs-target="#depoimentosCarousel" data-bs-slide-to="2" aria-label="Depoimento 3"></button>
+      <button type="button" data-bs-target="#depoimentosCarousel" data-bs-slide-to="3" aria-label="Consultoria TOTVS"></button>
+    </div>
+  </div>
+        <!-- <a href="https://www.linkedin.com/" class="btn btn-primary" target="_blank">Meu LinkedIn</a>
+        <a href="contato.html" class="btn btn-outline-secondary faleComigo">Fale comigo</a> -->
       </div>
     </div>
   </div>
